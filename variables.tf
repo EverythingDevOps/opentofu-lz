@@ -25,6 +25,7 @@ variable "availability_zones" {
 variable "bucket_name" {
   description = "Name of the S3 bucket for static storage"
   type        = string
+  default     = "spacelift-demmo"
 }
 
 variable "cluster_name" {
