@@ -1,0 +1,6 @@
+aws_region        = "us-west-2"
+environment       = "dev"
+vpc_cidr          = "10.0.0.0/16"
+availability_zones = ["us-west-2a", "us-west-2b"]
+bucket_name       = "startup-static-assets"
+cluster_name      = "startup-app-cluster"
